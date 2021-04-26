@@ -2,7 +2,7 @@ let logger = require('../../common/log/index');
 let CommonSender = require('../CommonSender');
 let Constants = require('../../common/Constants');
 let SecurityBuilder = require('../../security/SecurityBuilder');
-let Mqtt = require("async-mqtt");
+let Mqtt = require("mqtt");
 
 class MqttHelper extends CommonSender {
 
